@@ -4,7 +4,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Transactions\\App\\": "project/transactions/app/lib"
+            "Transactions\\App\\": "project/transactions/app/lib",
+            "ProgrammingWithGio\\": "project/programmingwithgio"
         }
     }
 }

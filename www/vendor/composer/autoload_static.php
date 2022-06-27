@@ -25,6 +25,10 @@ class ComposerStaticInit0e1c695ae307e327b23e555b991825b6
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
+        'P' => 
+        array (
+            'ProgrammingWithGio\\' => 19,
+        ),
         'B' => 
         array (
             'Brick\\Math\\' => 11,
@@ -47,6 +51,10 @@ class ComposerStaticInit0e1c695ae307e327b23e555b991825b6
         'Ramsey\\Collection\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/collection/src',
+        ),
+        'ProgrammingWithGio\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/project/programmingwithgio',
         ),
         'Brick\\Math\\' => 
         array (
@@ -71,6 +79,7 @@ class ComposerStaticInit0e1c695ae307e327b23e555b991825b6
         'Brick\\Math\\Internal\\Calculator\\NativeCalculator' => __DIR__ . '/..' . '/brick/math/src/Internal/Calculator/NativeCalculator.php',
         'Brick\\Math\\RoundingMode' => __DIR__ . '/..' . '/brick/math/src/RoundingMode.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'ProgrammingWithGio\\MagicMethods\\Invoice' => __DIR__ . '/../..' . '/project/programmingwithgio/MagicMethods/Invoice.php',
         'Ramsey\\Collection\\AbstractArray' => __DIR__ . '/..' . '/ramsey/collection/src/AbstractArray.php',
         'Ramsey\\Collection\\AbstractCollection' => __DIR__ . '/..' . '/ramsey/collection/src/AbstractCollection.php',
         'Ramsey\\Collection\\AbstractSet' => __DIR__ . '/..' . '/ramsey/collection/src/AbstractSet.php',

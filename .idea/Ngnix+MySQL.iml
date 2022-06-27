@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/www/project/programmingwithgio" isTestSource="false" packagePrefix="ProgrammingWithGio\" />
       <sourceFolder url="file://$MODULE_DIR$/www/project/transactions/app/lib" isTestSource="false" packagePrefix="Transactions\App\" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-php81" />
