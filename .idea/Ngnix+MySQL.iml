@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/www/project/transactions/app/lib" isTestSource="false" packagePrefix="Transactions\App\" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/brick/math" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

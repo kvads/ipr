@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  nginx:
+    build: ./images/nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./hosts:/etc/nginx/conf.d
+      - ./www:/var/www
+      - ./logs/nginx:/var/log/nginx
+    links:
+      - php
+  php:
+    build: ./images/php
+    links:
+      - mysql
+    expose:
+      - 9000
+    volumes:
+      - ./www:/var/www
+  mysql:
+    image: mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - /etc/mysql:/etc/mysql
+      - ./logs/mysql:/var/log/mysql
+      - ./mysql:/var/lib/mysql
+      - ./mysql-files:/var/lib/mysql-files
+      - ./data:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: mysqldb
